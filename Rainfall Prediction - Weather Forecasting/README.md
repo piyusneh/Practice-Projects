@@ -54,19 +54,7 @@ RISK_MM---The amount of next day rain in mm. Used to create response variable Ra
 
 
 RainTomorrow---The target variable. Did it rain tomorrow?
-References
-This total dataset is taken from following kaggle reference.
 
-https://www.kaggle.com/jsphyg/weather-dataset-rattle-package
-
-### Source & Acknowledgements
-Observations were drawn from numerous weather stations. The daily observations are available from http://www.bom.gov.au/climate/data. Copyright Commonwealth of Australia 2010, Bureau of Meteorology.
-
-Definitions adapted from http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml
-
-This dataset is also available via the R package rattle.data and at https://rattle.togaware.com/weatherAUS.csv. Package home page: http://rattle.togaware.com. Data source: http://www.bom.gov.au/climate/dwo/ and http://www.bom.gov.au/climate/data.
-
-And to see some great examples of how to use this data: https://togaware.com/onepager/
 
 ### Objective
 Predict whether or not it will rain tomorrow by training a binary classification model on target RainTomorrow.
